@@ -1,0 +1,33 @@
+One-Day Workshop on NVIDIA Jetson Nano
+Instructor: Shrawan Thakur, PhD Researcher at Kathmandu University
+09:00 - 09:30 - Introduction & Motivation
+- Overview of Edge AI and its importance in real-world applications
+- Introduction to NVIDIA Jetson Nano hardware and capabilities
+- Use cases: smart surveillance, robotics, healthcare, and IoT
+09:30 - 10:30 - Getting Started with Jetson Nano
+- Hardware setup: power, SD card flashing, peripherals
+- Linux basics: terminal, package installation
+- Installing JetPack SDK: CUDA, cuDNN, TensorRT
+10:30 - 12:30 - Hands-On AI Demo
+- Running image classification with pre-trained CNNs
+- Object detection using YOLOv5 or SSD with live webcam
+- Performance tuning with TensorRT and batch size optimization
+12:30 - 13:30 - Lunch Break
+Participants take a break and prepare for project session.
+13:30 - 15:30 - Applied Project Work
+- Group mini-projects:
+   - Smart camera with object/face detection
+   - Gesture recognition system
+   - AI-powered IoT device with sensors
+- Mentorship and debugging support
+15:30 - 16:00 - Wrap-Up & Future Directions
+- Career paths in Edge AI and embedded systems
+- Resources for further learning: NVIDIA forums, GitHub, MOOCs
+One-Day Workshop on NVIDIA Jetson Nano
+Instructor: Shrawan Thakur, PhD Researcher at Kathmandu University
+- Q&A session and feedback collection
+Key Takeaways
+- Understand the fundamentals of Edge AI and Jetson Nano hardware
+- Gain hands-on experience deploying AI models on embedded devices
+- Build a functional mini-project using AI and Jetson Nano
+- Explore future opportunities in AI, robotics, and IoT

@@ -1,8 +1,11 @@
 {
   "build": {
-    "builder": "NIXPACKS"
+    "builder": "NIXPACKS",
+    "nixpacksPlan": {
+      "providers": ["python"]
+    }
   },
   "deploy": {
-    "startCommand": "python manage.py migrate && gunicorn my_automation.wsgi:application --bind 0.0.0.0:$PORT"
+    "startCommand": "cd my_automation && python manage.py migrate && gunicorn my_automation.wsgi:application --bind 0.0.0.0:$PORT"
   }
 }

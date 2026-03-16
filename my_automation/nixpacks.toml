@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["python312"]
-
-[phases.install]
-cmds = ["python3.12 -m pip install --break-system-packages -r requirements.txt"]
-
-[start]
-cmd = "python3.12 manage.py migrate && gunicorn my_automation.wsgi:application --bind 0.0.0.0:$PORT"

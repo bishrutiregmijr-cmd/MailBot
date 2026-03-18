@@ -1,4 +1,27 @@
- 
-my_automation/automation/token.json 
-my_automation/credentials.json 
-backend/.env 
+# ──────────────────────────────────────────────
+#           SECRETS & CREDENTIALS
+# ──────────────────────────────────────────────
+
+# Gmail / OAuth / API tokens
+my_automation/automation/token.json
+my_automation/credentials.json
+my_automation/token*.json
+my_automation/credentials*.json
+credentials.json
+token.json
+tokens.json
+
+# Environment variables (all environments)
+backend/.env
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+
+# Databases & uploaded files (never commit)
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+media/
+uploads/

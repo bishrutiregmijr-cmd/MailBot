@@ -23,10 +23,8 @@ RUN python my_automation/manage.py collectstatic --noinput
 
 EXPOSE $PORT
 
-# Start: migrate at runtime (DB may not be ready during build) + gunicorn
 CMD python my_automation/manage.py migrate --noinput && \
     gunicorn my_automation.wsgi:application \
-    --bind [::]:$PORT \
+    --bind 0.0.0.0:$PORT \
     --workers 3 \
     --timeout 120
-    
